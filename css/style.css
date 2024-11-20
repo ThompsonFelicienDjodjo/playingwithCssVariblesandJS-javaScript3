@@ -1,0 +1,29 @@
+:root{
+    --base: yellow;
+    --spacing:15px;
+    --blur: 15px;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+.hl {
+    color: var(--base);
+}
+
+body {
+    text-align: center;
+    background: lightskyblue;
+    color: white;
+    font-family: 'helvetica neue', Sans-Serif;
+    font-weight: 100;
+    font-size: 50px;
+}
+.image {
+    width: 50%;
+}
+.controls {
+    margin-bottom: 50px;
+}
